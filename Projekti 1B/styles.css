@@ -67,15 +67,36 @@ input {
   border-top: 1px solid #00ffc4;
   padding-bottom: 5px;
 }
-.radio input {
-  accent-color: var(--accent-color);
+
+.radio label:first-child {
+  margin-left: 10px;
+  float: left;
+}
+
+.radio label {
+  display: inline-block;
+  width: 14vw;
+  margin-right: 30px;
+  text-align: left;
+}
+.radio p {
+  margin-right: 20px;
+  text-align: right;
+  width: 450px;
+  display: inline-block;
 }
 .select {
   padding-bottom: 5px;
   border-top: 1px solid #00ffc4;
+  border-bottom: 1px solid #00ffc4;
 }
 .select select {
   padding-left: 10px;
   border: 1px solid var(--accent-color);
   border-radius: 10px;
+}
+
+button {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
