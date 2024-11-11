@@ -73,11 +73,13 @@ function deleteTodoItem(todoindex) {
   updateTodoList();
 }
 
+// Save todos to localStorage. With JSON convertion
 function saveTodos() {
   const todosJson = JSON.stringify(allTodos);
   localStorage.setItem("todos", todosJson);
 }
 
+// Get TODOS from local storage and convert back from JSON
 function getTodos() {
   const todos = localStorage.getItem("todos") || "[]";
   return JSON.parse(todos);
