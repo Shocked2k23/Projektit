@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="js.js"></script>
+  </head>
+  <body>
+    <form action="submit">
+      <p>Valitse kivi, sakset tai paperi</p>
+      <select id="käyttäjäValinta">
+        <option value="1" id="kivi">Kivi</option>
+        <option value="2" id="sakset">Sakset</option>
+        <option value="3" id="paperi">Paperi</option>
+      </select>
+
+      <button type="button" onclick="kiviSaksetPaperi()">
+        Kivi Sakset Paperi
+      </button>
+      <p id="output">Voittaja?:</p>
+    </form>
+  </body>
+</html>
