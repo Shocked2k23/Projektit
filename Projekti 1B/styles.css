@@ -33,49 +33,46 @@ body {
 .otsikko {
   padding-bottom: 5px;
   text-align: center;
-  border: 2px solid var(--accent-color);
 }
 
 .description {
+  border-top: 1px solid #00ffc4;
   padding-bottom: 5px;
   text-align: center;
-  border: 2px solid var(--accent-color);
   border-top: none;
 }
 label {
-  display: flex;
-  margin-left: 10px;
-  margin: auto;
-  justify-content: start;
+  display: inline-block;
+  width: 14vw;
+  margin-right: 30px;
+  text-align: left;
 }
 
 input {
   padding-left: 5px;
   display: inline-flex;
-  border: 2px solid var(--accent-color);
+  justify-content: end;
 }
 .name {
+  border-top: 1px solid #00ffc4;
   padding-bottom: 5px;
-  border: 2px solid var(--accent-color);
 }
 .email {
   padding-bottom: 5px;
-  border: 2px solid var(--accent-color);
 }
 .ika {
   padding-bottom: 5px;
-  border: 2px solid var(--accent-color);
 }
 .radio {
+  border-top: 1px solid #00ffc4;
   padding-bottom: 5px;
-  border: 2px solid var(--accent-color);
 }
 .radio input {
   accent-color: var(--accent-color);
 }
 .select {
   padding-bottom: 5px;
-  border: 2px solid var(--accent-color);
+  border-top: 1px solid #00ffc4;
 }
 .select select {
   padding-left: 10px;
