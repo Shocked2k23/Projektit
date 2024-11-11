@@ -16,12 +16,7 @@
         <p id="kuvaus">Kuvaus?</p>
       </div>
       <div class="form">
-        <form
-          action="#"
-          id="kyselylomake"
-          method="get"
-          onsubmit="lomaketarkistus()"
-        >
+        <form id="kyselylomake">
           <div class="name">
             <label for="nimisyotto">Nimesi (Etu ja sukunimi):</label>
             <input type="text" id="nimisyotto" />
@@ -297,9 +292,7 @@
           </div>
         </form>
         <div class="button">
-          <button type="submit" form="kyselylomake" value="submit">
-            Lähetä
-          </button>
+          <button onclick="lomaketarkistus()">Lähetä</button>
         </div>
       </div>
     </div>
