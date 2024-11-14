@@ -8,6 +8,7 @@ function lomaketarkistus(form) {
   if (name < 3) {
     alert("Nimi on liian lyhyt");
     document.getElementById("nimisyotto").focus();
+<<<<<<< HEAD
     return false;
   }
 
@@ -27,6 +28,8 @@ function lomaketarkistus(form) {
   } else if (!isValidEmail(email)) {
     alert("Anna kelvollinen sähköposti");
     form.email.focus();
+=======
+>>>>>>> 45615848db33d03708cf1b6d7ab86bd5f2e60116
     return false;
   }
 
