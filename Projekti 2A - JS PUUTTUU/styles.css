@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b34141;
+}
+
+.wrapper {
+  margin: 3vw 33vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 33vw;
+  background-color: #b93131;
+}
+
+.header {
+  font-size: 25px;
+}
+
+.winlose p {
+  display: inline-block;
+}
+
+.buttons button {
+  margin: 1px 1px;
+  padding: 10px 20px;
+}
